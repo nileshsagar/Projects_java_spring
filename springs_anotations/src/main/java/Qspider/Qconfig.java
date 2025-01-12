@@ -1,0 +1,10 @@
+package Qspider;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "Qspider")
+public class Qconfig {
+
+}
